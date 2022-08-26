@@ -1,3 +1,5 @@
+//Approach: Convert the given 2D array to adjacency list. For each unvisited node in the graph, increment the counter and call dfs. In the end return the counter.
+
 class Solution {
     
     ArrayList<ArrayList<Integer>> adj = new ArrayList<ArrayList<Integer>>();
