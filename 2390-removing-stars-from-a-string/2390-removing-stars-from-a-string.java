@@ -1,3 +1,5 @@
+// Approach: Iterate over each character in string, if char is not * then push the char in a stack, and if char is * pop the topmost element from the stack, at the end, reverse the stack and return the string.
+
 class Solution {
     public String removeStars(String s) {
         String ans = "";
