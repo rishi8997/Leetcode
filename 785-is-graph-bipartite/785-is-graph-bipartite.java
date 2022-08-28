@@ -1,5 +1,6 @@
-class Solution {
-    
+// Approach: Bipartite can be understood as a graph that you can color with 2 diff colors such that no two adjacent nodes have same color. So initialize a color array with -1 denoting uncolored and for each uncolored node call BFS. In BFS, color the node with 1/0, add in the queue, and while queue is not empty, keep coloring uncolored neighbors with opposite color and adding in the queue. Once you find a neighbor with same color return false.
+
+class Solution { 
     public boolean bfs(int i, int[] color, int[][] graph){
          Queue<Integer> q = new LinkedList<>();
         q.add(i);
