@@ -1,3 +1,6 @@
+// Approach: We need to maximise the number of elements from nums[] such that their sum is not more than query. Since it's subsequence, order doesn't matter. So sort nums, take prefix, and perform binary search to find upper bound or last element <= query.
+
+
 class Solution {
     public int[] answerQueries(int[] nums, int[] queries) {
         Arrays.sort(nums);
