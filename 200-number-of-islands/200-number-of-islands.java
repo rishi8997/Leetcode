@@ -1,5 +1,4 @@
-//Approach:
-//Keep a visited 2D array. Traverse the given grid and for each unvsited land, visit it, //increment the counter by //1 and call BFS on its neighbors. In BFS call, push curr land //to queue, while queue is not empty, pop the land, visit //it's unvisited neighbouring //lands and add them in the queue. At the end return counter.
+//Approach: Keep a visited 2D array. Traverse the given grid and for each unvsited land, visit it, increment the counter by 1 and call BFS on its neighbors. In BFS call, push curr land to queue, while queue is not empty, pop the land, visit it's unvisited neighbouring lands and add them in the queue. At the end return counter.
 
 class Cell {
     int row;
