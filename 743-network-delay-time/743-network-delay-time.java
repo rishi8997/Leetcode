@@ -1,4 +1,4 @@
-// Approach: Initialize a delay array with Max value to store the delay time for each node. delay for souce is 0. Now call Dijkstra's algo to fill up delay and return the max from the array unless it is MAX value. In dijkstra, Add source to min priority queue and while queue isn't empty, poll, update delays for all it's neighbors and add them in pq.
+// Approach: Initialize a delay array of size n+1 with Max value to store the delay time for each node. Delay for souce is 0. Now call Dijkstra's algo to fill up delay and return the max from the array unless it is MAX_value. In dijkstra, Add source to min priority queue and while queue isn't empty, poll, update delays for all it's neighbors and add them in pq.
 
 class Node {
     int val;
